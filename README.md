@@ -28,3 +28,12 @@ MIN HEAP:A Min Heap is a complete binary tree where the parent node is smaller t
 Ascending order (small → large) → use a Max Heap.
 Descending order (large → small) → use a Min Heap.
 CONCLUSION:Heap sorting is a simple and efficient sorting method that uses a **heap data structure**. It arranges the elements in the required order by repeatedly selecting the largest or smallest element. **Max Heap is used for ascending order**, and **Min Heap is used for descending order**.
+
+
+           #PRACTICAL-4
+           ITERATIVE & RECURSIVE FACTORIAL
+The iterative factorial program uses a loop to multiply numbers from 1 to n
+ It is simple, efficient, and does not require additional function calls. Its time complexity is O(n) and space complexity is O(1).
+ The recursive factorial program calculates the factorial by calling itself until it reaches the base case (0 or 1). It is easy to understand but uses extra memory due to recursive function calls. Its time complexity is O(n) and space complexity is O(n).
+
+CONCLUSION: Both iterative and recursive methods correctly calculate the factorial of a number. The iterative approach is more memory-efficient and faster for larger values, while the recursive approach is simpler and demonstrates the concept of recursion clearly. The choice of method depends on the program's requirements and readability.
