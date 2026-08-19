@@ -37,3 +37,12 @@ The iterative factorial program uses a loop to multiply numbers from 1 to n
  The recursive factorial program calculates the factorial by calling itself until it reaches the base case (0 or 1). It is easy to understand but uses extra memory due to recursive function calls. Its time complexity is O(n) and space complexity is O(n).
 
 CONCLUSION: Both iterative and recursive methods correctly calculate the factorial of a number. The iterative approach is more memory-efficient and faster for larger values, while the recursive approach is simpler and demonstrates the concept of recursion clearly. The choice of method depends on the program's requirements and readability.
+
+       #PRACTICAL-07
+       # Coin Change Problem using Dynamic Programming
+SUMMARY:
+The Coin Change (Making Change) problem was implemented using the Dynamic Programming technique in Python. The program accepts coin denominations and the target amount as user input. A dynamic programming array is used to store the minimum number of coins required to form each amount. By considering all possible coin denominations, the program efficiently determines the minimum number of coins needed.
+CONCLUSION:
+The experiment successfully demonstrates the use of Dynamic Programming to solve the Coin Change problem.
+The program correctly finds the minimum number of coins required for the given amount and demonstrates how dynamic programming can be applied to optimization problems.
+  
