@@ -46,3 +46,8 @@ CONCLUSION:
 The experiment successfully demonstrates the use of Dynamic Programming to solve the Coin Change problem.
 The program correctly finds the minimum number of coins required for the given amount and demonstrates how dynamic programming can be applied to optimization problems.
   
+   #PRACTICAL-05
+Summary
+The 0/1 Knapsack problem is solved using Dynamic Programming by creating a table to store the maximum value for different capacities. For each item, we decide whether to include or exclude it.
+Conclusion
+Dynamic Programming provides an efficient way to solve the Knapsack problem by avoiding repeated calculations. The algorithm finds the maximum value that can be carried within the given capacity.
