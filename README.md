@@ -53,3 +53,11 @@ Summary
 The 0/1 Knapsack problem is solved using Dynamic Programming by creating a table to store the maximum value for different capacities. For each item, we decide whether to include or exclude it.
 Conclusion
 Dynamic Programming provides an efficient way to solve the Knapsack problem by avoiding repeated calculations. The algorithm finds the maximum value that can be carried within the given capacity.
+
+# PRACTICAL-06
+#Implementation of chain matrix multiplication using dynamic
+programming.
+SUMMARY:
+Matrix Chain Multiplication uses **Dynamic Programming** to find the best order for multiplying matrices. It stores the results of smaller problems to avoid repeated calculations.
+CONCLUSION:
+The algorithm finds the **minimum number of scalar multiplications** efficiently. Its time complexity is O(n³) and space complexity is O(n²).
