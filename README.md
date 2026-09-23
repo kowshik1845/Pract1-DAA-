@@ -61,3 +61,12 @@ SUMMARY:
 Matrix Chain Multiplication uses **Dynamic Programming** to find the best order for multiplying matrices. It stores the results of smaller problems to avoid repeated calculations.
 CONCLUSION:
 The algorithm finds the **minimum number of scalar multiplications** efficiently. Its time complexity is O(n³) and space complexity is O(n²).
+
+#PRACTICAL-08
+In this class we learned about BFS-BREADTH FIRST SEARCH & 
+                               DFS-DEAPTH FIRST SEARCH
+SUMMARY:DFS uses a stack and goes deep into one path before backtracking.
+BFS uses a queue and visits nodes level by level.
+Both use an adjacency list to store the graph and a visited set to avoid revisiting nodes.
+Conclusion
+DFS is useful for path finding and exploring deep structures, while BFS is better for finding the shortest path in an unweighted graph. Both are simple and efficient for graph traversal.
