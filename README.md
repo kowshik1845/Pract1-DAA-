@@ -70,3 +70,11 @@ BFS uses a queue and visits nodes level by level.
 Both use an adjacency list to store the graph and a visited set to avoid revisiting nodes.
 Conclusion
 DFS is useful for path finding and exploring deep structures, while BFS is better for finding the shortest path in an unweighted graph. Both are simple and efficient for graph traversal.
+
+#PRACTICAL-09  PRIMS ALGORITHM
+SUMMARY:Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. 
+It starts from any vertex and repeatedly selects the minimum-weight edge that connects a visited vertex to an unvisited vertex.
+This process continues until all vertices are included.
+CONCLUSION:Prim’s Algorithm provides an efficient way to connect all vertices
+of a graph with the minimum possible total edge weight and without forming cycles.
+It is commonly used in network design, road systems, computer networks, and cable connections.
