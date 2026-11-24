@@ -78,3 +78,34 @@ This process continues until all vertices are included.
 CONCLUSION:Prim’s Algorithm provides an efficient way to connect all vertices
 of a graph with the minimum possible total edge weight and without forming cycles.
 It is commonly used in network design, road systems, computer networks, and cable connections.
+
+**#PRACTICAL-10**
+Kruskal’s algorithm is used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph.
+It selects edges with minimum weights without forming cycles.
+It helps to connect all vertices with minimum total cost.
+Summary
+- Sorts all edges in increasing order of weight.
+- Selects the minimum-weight edge.
+- Avoids cycles using the Union-Find method.
+- Continues until V-1 edges are selected.
+- Produces a Minimum Spanning Tree with minimum total cost.
+
+ **#PRACTICAL-11**
+- Summary
+- Floyd-Warshall algorithm finds the shortest paths between all pairs of vertices.
+- It uses a distance matrix to store the shortest distances.
+- Each vertex is considered as an intermediate vertex.
+  **Conclusion**
+Floyd-Warshall algorithm is used to find the shortest paths between every pair of vertices in a weighted graph. It efficiently updates distances by considering all possible intermediate vertices.
+Time Complexity: \(O(V^3)\)
+Space Complexity: \(O(V^2)\)
+
+**#PRACTICAL-12**
+Summary
+- TSP finds the shortest possible route to visit all cities.
+- It starts from a selected city.
+- It checks all possible routes.
+  Conclusion
+The Travelling Salesman Problem finds the minimum-cost route to visit every city exactly once and return to the starting city. The program checks all possible routes and displays the best path.
+Time Complexity: \(O(n!)\)
+Space Complexity: \(O(n)\)
